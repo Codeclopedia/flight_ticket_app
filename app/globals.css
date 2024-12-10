@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+      @apply bg-slate-200;
+    }
+    
+    .vertical-line {
+      border-left: 2px solid black; /* Defines the thickness and color of the line */
+      height: 100px;                /* Sets the height of the line */
+      margin-left: 10px;            /* Optional: Adds space before the line */
+    }
+
+  }
+
+  
+  
+

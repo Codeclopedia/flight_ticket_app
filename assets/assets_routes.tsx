@@ -1,0 +1,1 @@
+export const SupportImagePath = "/assets/COA-agent-pic.png";
