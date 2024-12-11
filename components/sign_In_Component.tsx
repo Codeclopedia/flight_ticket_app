@@ -37,7 +37,6 @@ function AuthPage({ onCancel }: { onCancel: Function }) {
                 <div className="grid grid-cols-2 bg-white rounded rounded-lg shadow-md text-center">
                     <AuthTextPart onCancel={()=>onCancel()} />
                     <AuthSocialMediaPart />
-                    
                 </div>
             </div>
         </>

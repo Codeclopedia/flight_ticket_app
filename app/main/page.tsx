@@ -62,7 +62,7 @@ function Introduction() {
 
 function BenifitsModal() {
   return <div className="font-bold text-2xl py-10">
-    Here's why travelers choose CheapOair
+    Here&aspos;s why travelers choose CheapOair
     <div className="flex flex-row-3 justify-between py-5">
       <PositiveQualities title="Get Great Deals!" subHeading="Choose from 500+ airlines for low airfares!" />
       <PositiveQualities title="Book Instantly!" subHeading="Choose from 500+ airlines for low airfares!" />
