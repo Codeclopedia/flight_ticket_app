@@ -1,4 +1,4 @@
-import { Cancel, DateRange, LocationOn, Person, SyncAlt } from "@material-ui/icons";
+import { Cancel, DateRange, LocationOn, Person, SyncAlt } from "@mui/icons-material";
 
 export function FlightsTabBody() {
     return <div className="flex relative w-full px-5 pt-2 space-x-2">

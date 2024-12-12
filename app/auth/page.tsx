@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import { format, isValid } from 'date-fns';
-import { Divider } from '@material-ui/core';
+import { Divider } from "@mui/material";
 import { SocialMediaLogin } from '@/components/sign_In_Component';
 import { faFacebook, faGoogle } from '@fortawesome/free-brands-svg-icons';
 import Link from 'next/link';

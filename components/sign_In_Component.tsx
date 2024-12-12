@@ -1,13 +1,13 @@
 "use client"
 
 
-import { AccountCircleOutlined, Cancel, CloseRounded, PersonRounded } from "@material-ui/icons"
+import { AccountCircleOutlined, Cancel, CloseRounded, PersonRounded } from "@mui/icons-material";
 import Image from "next/image";
 import { useState } from "react"
 import React from 'react';
 import AuthImage from '../assets/auth_image.png'
 import Link from "next/link";
-import { Divider } from "@material-ui/core";
+import { Divider } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faGoogle, IconDefinition } from "@fortawesome/free-brands-svg-icons";
 

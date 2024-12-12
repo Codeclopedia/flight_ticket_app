@@ -1,6 +1,7 @@
 "use client"
 
-import { EmailRounded, Facebook, Instagram, Twitter } from "@material-ui/icons"
+
+import { EmailRounded, Twitter, Facebook, Instagram } from "@mui/icons-material"
 import { Divider } from "@nextui-org/react"
 
 export function FooterModal(){

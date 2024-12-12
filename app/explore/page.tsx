@@ -2,7 +2,6 @@ import { HeaderSecondRow } from "@/components/explore/headerRows"
 import VerticalLine from "@/components/shapes/verticalLine"
 import { faHeart, faPerson, faUser, IconDefinition } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { LocationOn } from "@material-ui/icons"
 import { Divider } from "@nextui-org/react"
 
 

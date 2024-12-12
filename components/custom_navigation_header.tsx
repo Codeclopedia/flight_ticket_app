@@ -1,10 +1,10 @@
 import Image from "next/image";
 import SupportImagePath from "/assets/COA-agent-pic.png";
-import { PersonRounded } from "@material-ui/icons";
 import { Auth } from "./sign_In_Component";
 import { useState } from "react";
-import { Divider } from "@material-ui/core";
+
 import "../features/styles/heading_style.css"
+import { Divider } from "@mui/material";
 
 export default function Custom_Navigation_Header() {
   const [isMoreDealsTabOpen, setIsMoreDealsTabOpen] = useState(false);

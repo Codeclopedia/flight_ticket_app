@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Flight, Pool, Hotel, DirectionsCar } from "@material-ui/icons";
+import { Flight, Pool, Hotel, DirectionsCar } from "@mui/icons-material";
 import { Tabs, Tab } from "@nextui-org/react";
 import { FlightTabHeader } from "./tabs_components/flightTabHead";
 import { FlightsTabBody } from "./tabs_components/flightTabBody";

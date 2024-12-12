@@ -1,6 +1,6 @@
 "use client"
 
-import { Cancel, CloseRounded, DateRange, LocationOn } from "@material-ui/icons"
+import { Cancel, CloseRounded, DateRange, LocationOn } from "@mui/icons-material"
 
 export function HeaderSecondRow() {
     return <div className="flex gap-4 justify-between">
