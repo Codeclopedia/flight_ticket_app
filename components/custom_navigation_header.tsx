@@ -5,7 +5,6 @@ import { Auth } from "./sign_In_Component";
 import { useState } from "react";
 import { Divider } from "@material-ui/core";
 import "../features/styles/heading_style.css"
-import "/node_modules/flag-icons/css/flag-icons.min.css";
 
 export default function Custom_Navigation_Header() {
   const [isMoreDealsTabOpen, setIsMoreDealsTabOpen] = useState(false);
@@ -60,7 +59,7 @@ function SelectCurrencyDropDown({ onClick }: { onClick: Function }) {
   return <div className="modal-overlay" onClick={() => onClick()}>
     <div className="pb-2 font-bold">Language</div>
     <Divider />
-    {typesOfLanguages.map((val) => <text key={val.map} className="pr-2 pb-2 text-sm text-black  space-2 hover:text-blue-600"><span className={`fi fi-${val.map}`}></span>{val.lang}</text>)}
+    {typesOfLanguages.map((val) => <text key={val.map} className="pr-2 pb-2 text-sm text-black  space-2 hover:text-blue-600">{val.map}-{val.lang}</text>)}
 
     <div className="pt-2 pb-2 font-bold">Currency</div>
     <Divider />
